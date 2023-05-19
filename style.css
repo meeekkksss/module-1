@@ -32,12 +32,11 @@ body {
 
 .header div {
     padding: 15px;
-    margin: right 20px;;
+    margin: right 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     max-width: 784;
-    
 }
 
 .header div ul {
@@ -51,7 +50,6 @@ body {
     display: inline-block;
     margin-right: 10px;
     flex-direction: row;
-    
 }
 
 a {
