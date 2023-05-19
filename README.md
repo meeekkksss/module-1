@@ -9,4 +9,8 @@
  ## Usage 
 When developers view the source code they will be able to find and view the structures of the semantic HTML elements. The elements follow a logical structure indendent of styling and position when images are viewed. When the image elements are viewed you will be able to find accessible alt attributes fall in a sequential order. When developers view the title element they will find a concise, descriptive title 
 
+## Credits
+N/A
 
+## License 
+Please refer to the LICENSE in the repo. 
