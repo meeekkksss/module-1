@@ -6,6 +6,9 @@
 
 body {
     background-color: #d9dcd6;
+    position:absolute;
+    top: 0;
+    right:0;
 }
 
 .header {
@@ -13,7 +16,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    justify-content: 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header h1 {
@@ -27,20 +32,26 @@ body {
 
 .header div {
     padding: 15px;
-    margin-right: 20px;
+    margin: right 20px;;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    max-width: 784;
     
 }
 
 .header div ul {
     list-style-type: none;
+    margin:0;
+    padding:0;
+    display:flex;
 }
 
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-right: 10px;
+    flex-direction: row;
+    
 }
 
 a {
@@ -112,20 +123,20 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-    @media screen and {max-width: 900px)
-        
-    }
 }
 
 .search-engine-optimization, 
 .online-reputation-management,
 .social-media-marketing {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
     padding: 50px;
     height: 390px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    
 }
 
 .search-engine-optimization img,
@@ -133,6 +144,10 @@ p {
 .social-media-marketing img {
     max-height: 200px;
     justify-self: left;
+    margin-right: 20px;
+}
+.social-media-marketing{
+    justify-content: flex-end;
 }
 
 .search-engine-optimization h2,
@@ -141,7 +156,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
     padding: 10px 20px 5px 3px;
-    text-align:left;
+    font-weight: bold;
 }
 
 .footer {
